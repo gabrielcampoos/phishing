@@ -11,7 +11,7 @@ import Paper from '@mui/material/Paper';
 import { useState } from 'react';
 
 const DemoPaper = styled(Paper)(({ theme }) => ({
-	width: 500,
+	width: 400,
 	height: 600,
 	padding: theme.spacing(2),
 	...theme.typography.body2,

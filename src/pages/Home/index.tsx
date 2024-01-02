@@ -65,36 +65,38 @@ const Home = () => {
 					gap: 2,
 				}}
 			>
-				<Typography fontSize="0.8rem" pt={4}>
-					Português (Brasil)
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					English (US)
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					Español
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					Français (France)
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					Italiano
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					Deutsch
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					لعربية
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					हिन्दी
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					中文(简体)
-				</Typography>
-				<Typography fontSize="0.8rem" pt={4}>
-					日本語
-				</Typography>
+				<Grid item xs={12} sm={8} md={6}>
+					<Typography fontSize="0.8rem" pt={4}>
+						Português (Brasil)
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						English (US)
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						Español
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						Français (France)
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						Italiano
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						Deutsch
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						لعربية
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						हिन्दी
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						中文(简体)
+					</Typography>
+					<Typography fontSize="0.8rem" pt={4}>
+						日本語
+					</Typography>
+				</Grid>
 			</Box>
 		</Box>
 	);
